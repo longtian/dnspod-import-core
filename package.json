@@ -1,0 +1,25 @@
+{
+  "name": "dnspod-import-core",
+  "version": "0.0.0",
+  "description": "Import A records into dnspod",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wyvernnot/dnspod-import-core.git"
+  },
+  "keywords": [
+    "dnspod"
+  ],
+  "author": "wyvernnot",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wyvernnot/dnspod-import-core/issues"
+  },
+  "homepage": "https://github.com/wyvernnot/dnspod-import-core#readme",
+  "dependencies": {
+    "request": "^2.72.0"
+  }
+}
