@@ -1,6 +1,6 @@
 {
   "name": "dnspod-import-core",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Import A records into dnspod",
   "main": "lib/index.js",
   "scripts": {
@@ -29,7 +29,7 @@
     "babel-preset-es2015": "^6.9.0",
     "mocha": "^2.4.5"
   },
-  "files":[
+  "files": [
     "lib"
   ]
 }
