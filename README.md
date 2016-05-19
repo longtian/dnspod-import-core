@@ -4,6 +4,14 @@
 
 > 同步 DNS 记录到 DNSPod 指定的域名下
 
+## 配置
+
+|       环境变量       |             备注            |
+|---------------------|-----------------------------|
+| `LOGIN_TOKEN`       | DNSPod 用于鉴权的 API Token |
+| `DOMAIN_ID`         | 域名 Id                     |
+| `REMOVE`            | 是否删除本地不存在的记录      |
+
 ## 示例代码
 
 ### 准备要映射的对象
@@ -20,14 +28,9 @@ const map = {
 const apply = require('dnspod-import-core');
 apply(map);
 ```
+### 验证
 
-## 配置
-
-|       环境变量       |             备注            |
-|---------------------|-----------------------------|
-| `LOGIN_TOKEN`       | DNSPod 用于鉴权的 API Token |
-| `DOMAIN_ID`         | 域名 Id                     |
-| `REMOVE`            | 是否删除本地不存在的记录      |
+登录到 DNSPod 的后台，可以看到添加了一条 `dev` 的解析记录
 
 ## 开源协议
 
