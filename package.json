@@ -1,6 +1,6 @@
 {
   "name": "dnspod-import-core",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Import A records into dnspod",
   "main": "lib/index.js",
   "scripts": {
